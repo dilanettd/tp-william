@@ -1,19 +1,30 @@
-public class Matrice {
-    int base;
-    int hauteur;
-    int positionX;
-    int positionY;
+public class Piece {
+   int axisX;
+   int axisY;
+   int base;
+   int hauteur;
 
-    public Matrice(int base, int hauteur) {
+    public Piece(int axisX, int axisY, int base, int hauteur) {
+        this.axisX = axisX;
+        this.axisY = axisY;
         this.base = base;
         this.hauteur = hauteur;
-        this.positionX = positionX;
-        this.positionY = positionY;
-//        String mat [][] = new String[base][hauteur];
-//        for(int i =0; i < hauteur; i++){
-//            for(int j = 0; j < base; j++){
-//                mat[hauteur][base]="o";
-//        }
+    }
+
+    public int getAxisX() {
+        return axisX;
+    }
+
+    public void setAxisX(int axisX) {
+        this.axisX = axisX;
+    }
+
+    public int getAxisY() {
+        return axisY;
+    }
+
+    public void setAxisY(int axisY) {
+        this.axisY = axisY;
     }
 
     public int getBase() {
@@ -30,22 +41,5 @@ public class Matrice {
 
     public void setHauteur(int hauteur) {
         this.hauteur = hauteur;
-    }
-
-
-    public int getPositionX() {
-        return positionX;
-    }
-
-    public void setPositionX(int positionX) {
-        this.positionX = positionX;
-    }
-
-    public int getPositionY() {
-        return positionY;
-    }
-
-    public void setPositionY(int positionY) {
-        this.positionY = positionY;
     }
 }
