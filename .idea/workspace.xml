@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22880390-ecc5-46cb-860f-b3cda782dd7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PieceSimple.java" afterDir="false" />
+    <list default="true" id="22880390-ecc5-46cb-860f-b3cda782dd7d" name="Changes" comment="Displaying parts without moving them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675674479717</updated>
     </task>
+    <task id="LOCAL-00001" summary="Displaying parts without moving them">
+      <created>1676203565072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676203565072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Displaying parts without moving them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Displaying parts without moving them" />
   </component>
 </project>

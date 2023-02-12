@@ -117,7 +117,6 @@ public class Main {
         if(siPieceCentrale){
             int nombreEchec=0;
             while ( listePieceSimple.size()>0 && nombreEchec<100){
-                nombreEchec++;
                 int indexMur = tirageMur();
                 int indexPiece = tiragePiece();
                 PieceSimple piece = listePieceSimple.get(indexPiece);
@@ -139,7 +138,7 @@ public class Main {
                                 }
                             }
                             if(verificationPiece(copieSouterrain)){
-
+                                nombreEchec++;
                             }
                             else {
                                 for(int i = mur.axisX ; i<mur.axisX+base ;i++){
@@ -176,6 +175,7 @@ public class Main {
                             }
 
                             if(verificationPiece(copieSouterrain)){
+                                nombreEchec++;
                             }
                             else {
                                 for(int i = mur.axisX-1 ; i>mur.axisX-1-base ;i--){
@@ -213,6 +213,7 @@ public class Main {
                             }
 
                             if(verificationPiece(copieSouterrain)){
+                                nombreEchec++;
                             }
                             else {
                                 for(int i = mur.axisX+1 ; i<(mur.axisX+1)+base ;i++){
@@ -249,6 +250,7 @@ public class Main {
                             }
 
                             if(verificationPiece(copieSouterrain)){
+                                nombreEchec++;
                             }
                             else {
                                 for(int i = mur.axisX-2 ; i>(mur.axisX-2)-base ;i--){
